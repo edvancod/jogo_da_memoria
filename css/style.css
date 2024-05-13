@@ -7,12 +7,10 @@
 h1 {
   text-align: center;
 }
-
 .bloco {
   background-color: #808080;
   height: 70px;
   width: 70px;
-  border: 5px solid #0000;
   border-radius: 5%;
   font-size: 2rem;
   display: flex;
