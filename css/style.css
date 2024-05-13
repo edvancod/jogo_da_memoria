@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+.bloco {
+  background-color: #808080;
+  height: 70px;
+  width: 70px;
+  border: 5px solid #0000;
+  border-radius: 5%;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.bloco:hover {
+  background-color: #0099ff;
+}
+
+#campo {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  gap: 2px;
+}
+#tela {
+  display: flex;
+  justify-content: center;
+}
