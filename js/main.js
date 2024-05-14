@@ -8,6 +8,12 @@ for (let i = 0; i < tamanho; i++) {
     
 }
 
+const campo = document.getElementById('campo');
+for (const key in lsEmoticons) {
+    campo.innerHTML += `<div class="bloco"></div>`
+    
+}
+
 // para cada bloco incluir o evento de click
 let blocos = {
 
@@ -61,3 +67,4 @@ function sortear(){
  return Math.floor(Math.random() * lsEmoticons.length);
  
 }
+
