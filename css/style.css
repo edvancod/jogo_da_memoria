@@ -6,8 +6,10 @@
 
 h1 {
   text-align: center;
+  margin: 30px 0;
 }
 .bloco {
+ 
   background-color: #808080;
   height: 70px;
   width: 70px;
@@ -25,7 +27,7 @@ h1 {
 #campo {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
-  gap: 2px;
+  gap: 2px; 
 }
 #tela {
   display: flex;
